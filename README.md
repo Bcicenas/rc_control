@@ -3,9 +3,8 @@
 
 # Project idea
   Control rc car components using arduino. This project is for two arduino uno boards.
-  
-    First used as transmitter.
-    Second used as receiver.
+  - First used as transmitter.
+  - Second used as receiver.
 # Block diagram
 ![alt text](https://github.com/MrBenedict/rc_control/blob/main/rc.jpg)
 # Transmitter
@@ -14,10 +13,9 @@
 
 # Input data for transmitter
   Transmitter listens for 3 bytes of data:
-
-    1 byte - integer used for stearing. 1 - go left, 2 - straight, 3 - go right
-    2 byte - integer used for going forward. 1 - nothin, 2 - go forward
-    3 byte - integer used for reverse. 1 - nothin, 3 - go in reverse
+  - 1 byte - integer used for stearing. 1 - go left, 2 - straight, 3 - go right
+  - 2 byte - integer used for going forward. 1 - nothin, 2 - go forward
+  - 3 byte - integer used for reverse. 1 - nothin, 3 - go in reverse
   
 # Receiver
   1. Listens input data from transmitter.

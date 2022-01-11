@@ -16,7 +16,7 @@
   - 1 byte - integer used for stearing. 1 - go left, 2 - straight, 3 - go right
   - 2 byte - integer used for going forward. 1 - nothin, 2 - go forward
   - 3 byte - integer used for reverse. 1 - nothin, 3 - go in reverse
-  
+  - [Example script for sending input for transmitter](https://github.com/MrBenedict/rc_dash/blob/main/source/servo_control.py)
 # Receiver
   1. Listens input data from transmitter.
   2. Uses input data to control steering servo and ESC(Electronic Speed Controller).

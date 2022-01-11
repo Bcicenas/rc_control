@@ -30,7 +30,7 @@
   4. ESC - 105906SC - 15WP.
 
 # Resources
-[How nRF24L01+ Wireless Module Works & Interface with Arduino](https://lastminuteengineers.com/nrf24l01-arduino-wireless-communication/)
-[Servo Motor Basics with Arduino](https://docs.arduino.cc/learn/electronics/servo-motors)
-[Arduino Brushless Motor Control Tutorial | ESC | BLDC](https://howtomechatronics.com/tutorials/arduino/arduino-brushless-motor-control-tutorial-esc-bldc/)
-[Arduino Python Communication Via USB](https://www.instructables.com/Arduino-Python-Communication-via-USB/)
+- [How nRF24L01+ Wireless Module Works & Interface with Arduino](https://lastminuteengineers.com/nrf24l01-arduino-wireless-communication/)
+- [Servo Motor Basics with Arduino](https://docs.arduino.cc/learn/electronics/servo-motors)
+- [Arduino Brushless Motor Control Tutorial | ESC | BLDC](https://howtomechatronics.com/tutorials/arduino/arduino-brushless-motor-control-tutorial-esc-bldc/)
+- [Arduino Python Communication Via USB](https://www.instructables.com/Arduino-Python-Communication-via-USB/)

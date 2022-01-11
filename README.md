@@ -1,4 +1,4 @@
-# rc_control
+# RC Control
   Arduino scripts for controlling rc car using NRF24L01+PA+LNA Wireless Module.
 
 # Project idea

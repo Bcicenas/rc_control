@@ -6,7 +6,8 @@
   
     First used as transmitter.
     Second used as receiver.
-
+# Block diagram
+![alt text](https://github.com/MrBenedict/rc_control/blob/main/rc.jpg)
 # Transmitter
   1. Listens input from pc on COM4 port.
   2. Sends input data to receiver

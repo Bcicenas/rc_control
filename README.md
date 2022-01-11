@@ -11,10 +11,11 @@
   2. Sends input data to receiver
 
 # Input data for transmitter
-  Transmitter listens for 3 bytes of data.
-  1 byte - integer used for stearing. 1 - go left, 2 - straight, 3 - go right
-  2 byte - integer used for going forward. 1 - nothin, 2 - go forward
-  3 byte - integer used for reverse. 1 - nothin, 3 - go in reverse
+  Transmitter listens for 3 bytes of data:
+
+    1 byte - integer used for stearing. 1 - go left, 2 - straight, 3 - go right
+    2 byte - integer used for going forward. 1 - nothin, 2 - go forward
+    3 byte - integer used for reverse. 1 - nothin, 3 - go in reverse
   
 # Receiver
   1. Listens input data from transmitter.

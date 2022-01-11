@@ -2,9 +2,10 @@
   Arduino scripts for controlling rc car using NRF24L01+PA+LNA Wireless Module.
 
 # Project idea
-  Control rc car components using arduino.This project is for two arduino uno boards.
-  First used as transmitter
-  Second used as receiver.
+  Control rc car components using arduino. This project is for two arduino uno boards.
+  
+    First used as transmitter.
+    Second used as receiver.
 
 # Transmitter
   1. Listens input from pc on COM4 port.

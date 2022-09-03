@@ -9,10 +9,10 @@ Servo servo1; // Servo PowerHD HD-1160A
 Servo servo2; // for ESC control
 //address through which two modules communicate.
 const byte address[6] = "00001";
-int startingAngle = 130;
+int startingAngle = 85;
 int currentAngle = startingAngle;    // variable to store the servo position
-int rightAngle = 80;
-int leftAngle = 180;
+int rightAngle = 180;
+int leftAngle = 0;
 int x = 0;
 int y = 0;
 int z = 0;
@@ -54,7 +54,7 @@ void loop()
 
     if (y == 1 && z == 1) escPos = 90;
     if (y == 2) escPos = 60;
-    if (z == 3) escPos = 120;
+    if (z == 2) escPos = 120;
   }
 
 }

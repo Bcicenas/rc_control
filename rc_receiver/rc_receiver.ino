@@ -16,6 +16,7 @@ int leftAngle = 0;
 int x = 0;
 int y = 0;
 int z = 0;
+int signal_init = 0;
 int escPos = 90;
 
 void setup()
@@ -31,7 +32,7 @@ void setup()
   //Set module as receiver
   radio.startListening();
   servo1.attach(6, 800, 2200);
-  servo2.attach(5,800,2200);
+  servo2.attach(5,544,2400);
 }
 
 void loop()
@@ -53,8 +54,10 @@ void loop()
     if (x == 2) currentAngle = startingAngle;
 
     if (y == 1 && z == 1) escPos = 90;
-    if (y == 2) escPos = 60;
-    if (z == 2) escPos = 120;
+    if (y == 3) escPos = 180;
+    if (z == 3) escPos = 0;
+    if (y == 2) escPos = 100;
+    if (z == 2) escPos = 80;
   }
 
 }
